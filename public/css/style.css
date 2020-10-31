@@ -1,0 +1,32 @@
+.img {
+  width: 200px;
+  margin-top: 16px;
+}
+
+body {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888888;
+  margin: 2px;
+  border-top: 1px solid #000000;
+  margin-top: 16px;
+  text-align: center;
+}
+
+header a {
+  margin-right: 16px;
+  text-decoration: none;
+}
